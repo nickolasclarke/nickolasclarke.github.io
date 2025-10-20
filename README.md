@@ -2,16 +2,19 @@
 
 ### Tools
 
-Python, data/ML stack (Pandas, Polars, Numpy, SKLearn, Tensorflow), Rust, Postgres SQL, Meltano, DBT, Docker, GraphQL, Javascript
+Python, Polars/Pandas/Numpy, CVXPY, SKLearn, Tensorflow, SQL, DBT, Docker, GraphQL, AWS, GCP, Snowflake
 
 ### Interests
 
-IoT, optimization & controls, power systems and energy analysis, spatial analysis (GIS), transit, distributed energy resources (DER), renewables, EV integration, demand response, air quality, China, international development
+IoT, optimization & controls, power systems and energy analysis, energy markets, spatial analysis (GIS), transit, distributed energy resources (DER), renewables, EV integration, demand response, air quality, China, international development
 
 ## Employment History
 
-- **[WeaveGrid](http:///)** San Francisco: Oct 2021 - Present
+- **[DataCRT](http://www.datacrt.com)** Oakland, CA: Feb 2025 - Present
 
+  - **Principal Engineer**: Lead DataCRT's Energy practice, helping clean energy sector clients develop production-grade data pipelines, data warehousing, and analytics tooling. Lead development of proprietary techno-economic analysis optimization framework for energy systems. Built with CVXPY, this framework is used by our clients to inform go-to-market strategies, battery site selection, product development roadmaps, and sensitivity analysis, etc.
+
+- **[WeaveGrid](http://www.weavegrid.com)** San Francisco, CA: Oct 2021 - Dec 2024
   - **Data & Analytics Engineer**: Development of Weavegrid's internal data pipeline and analytics tooling, including the development of the data warehouse, ETL pipeline, and data visualization tools. Building out analytics and machine-learning forecasting for our go-to-market tools. Used to evaluate performance of our utility clients' electric vehicle charging programs for tens of thousands of connected EV and EVSE chargers, impacting hundreds of GWh of electricity daily.
 
   - **Software Engineer**: Founding member of a greenfield team to develop the [Weavegrid for Utilities](https://www.weavegrid.com/utilities) platform, a cloud-based software platform for WeavGrid's utility clients to manage and optimize residential and commercial electric vehicle fleet charging programs. This includes developing the data pipeline, REST/GraphQL API, and React front-end interfaces for the platform, as well as automated reporting for utility clients.

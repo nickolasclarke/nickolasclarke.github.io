@@ -54,16 +54,23 @@
     \section*{Skills \& Interests}
 
     \subsection*{Tools}
-    Python, data/ML stack (Pandas, Polars, Numpy, SKLearn, Tensorflow), Rust, Postgres SQL, Meltano, DBT, Docker, GraphQL, Javascript
+    Python, Polars/Pandas/Numpy, CVXPY, SKLearn, Tensorflow, SQL, DBT, Docker, GraphQL, AWS, GCP, Snowflake
 
     \subsection*{Interests}
-    IoT devices, optimization \& controls, power systems and energy analysis, spatial analysis (GIS), transit, distributed renewables, EV integration, demand response, air quality, China, international development
+    IoT, optimization & controls, power systems and energy analysis, energy markets, spatial analysis (GIS), transit, distributed energy resources (DER), renewables, EV integration, demand response, air quality, China, international development
 
     % Employment History
     \section*{Employment History}
 
+    \subsection*{\href{http://www.datacrt.com}{DataCRT}} \hfill Oakland, CA \\
+    \textbf{Principal Engineer} \hfill Feb 2025 -- Present
+    \begin{itemize}[leftmargin=*]
+        \item Lead DataCRT's Energy practice, helping clean energy sector clients develop production-grade data pipelines, data warehousing, and analytics tooling.
+        \item Lead development of proprietary techno-economic analysis optimization framework for energy systems. Built with CVXPY, this framework is used by our clients to inform go-to-market strategies, battery site selection, product development roadmaps, and sensitivity analysis, etc.
+    \end{itemize}
+
     \subsection*{\href{https://www.weavegrid.com}{WeaveGrid}} \hfill San Francisco, CA \\
-    \textbf{Data \& Analytics Engineer} \hfill Oct 2021 -- Present
+    \textbf{Data \& Analytics Engineer} \hfill Oct 2021 -- Dec 2024
     \begin{itemize}[leftmargin=*]
         \item Development of WeaveGrid's internal data pipeline and analytics tooling, including the development of the data warehouse, ETL pipeline, and data visualization tools.
         \item Building out analytics and machine-learning forecasting for go-to-market tools to evaluate performance of utility clients' electric vehicle charging programs for tens of thousands of connected EV and EVSE chargers, impacting hundreds of GWh of electricity daily.
