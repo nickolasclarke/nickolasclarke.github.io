@@ -1,18 +1,59 @@
+# Nick Clarke
+
+Oakland, CA | nickolasclarke@gmail.com | [github.com/nickolasclarke](https://github.com/nickolasclarke)
+
+Principal Engineer and data systems architect with 12+ years spanning energy systems, financial data infrastructure, and product management. Builds production-grade data pipelines, optimization engines, ML forecasting models, and analytics platforms. Domain expertise in grid electrification, utility-scale battery storage, EV charging, and distributed energy resources. Applies AI/ML techniques to time-series, IoT, and geospatial data across energy, finance, and marketing analytics. MS Energy & Resources from UC Berkeley.
+
 ## Skills & Interests
 
-### Tools
+### Technical
 
-Python, Polars/Pandas/Numpy, CVXPY, SKLearn, Tensorflow, SQL, DBT, Docker, GraphQL, AWS, GCP, Snowflake
+- **Languages:** Python, SQL, Julia, JavaScript/React
+- **Data:** Polars, Pandas, NumPy, DuckDB, Apache Arrow
+- **ML/Optimization:** CVXPY, scikit-learn, XGBoost, TensorFlow, NREL REopt
+- **Warehousing:** Snowflake, BigQuery, Redshift, dbt
+- **Orchestration:** Dagster, dlt, Airbyte/PyAirbyte
+- **Cloud:** AWS (Lambda, SageMaker, Secrets Manager), GCP (Cloud Run, BigQuery, Cloud Storage)
+- **Visualization:** Altair, Plotly, Matplotlib, Marimo, Chart.js
+- **Infrastructure:** Docker, GitHub Actions, CI/CD
+- **APIs/Integration:** REST, GraphQL, Bloomberg, FRED, UtilityAPI, Interactive Brokers, Google Ads API
 
-### Interests
+### Domain Expertise
 
-IoT, optimization & controls, power systems and energy analysis, energy markets, spatial analysis (GIS), transit, distributed energy resources (DER), renewables, EV integration, demand response, air quality, China, international development
+- **Energy & Environment:** Grid electrification, DER optimization, utility billing, EV charging, battery storage, port electrification, CARB/EPA compliance, CAISO markets
+- **Data Types:** Time-series, IoT sensor data, geospatial, financial
+- **Product:** PRDs, roadmapping, stakeholder management, go-to-market
 
 ## Employment History
 
 - **[DataCRT](http://www.datacrt.com)** Oakland, CA: Feb 2025 - Present
 
-  - **Principal Engineer**: Lead DataCRT's Energy practice, helping clean energy sector clients develop production-grade data pipelines, data warehousing, and analytics tooling. Lead development of proprietary techno-economic analysis optimization framework for energy systems. Built with CVXPY, this framework is used by our clients to inform go-to-market strategies, battery site selection, product development roadmaps, and sensitivity analysis, etc.
+  - **Principal Engineer**: Leads the Energy practice at a data engineering consultancy, delivering production-grade analytics infrastructure and optimization systems for cleantech and enterprise clients.
+
+  **Data Engineering & Pipeline Development**
+
+  - Architected ETL/ELT pipelines using dlt, dbt, Dagster, and PyAirbyte across Snowflake, BigQuery, DuckDB, and Redshift
+  - Built utility meter data ingestion system processing 15-minute interval readings and billing records via REST APIs with incremental loading
+  - Developed financial data platform ingesting from Bloomberg, FRED, Interactive Brokers, and 10+ additional sources with parallel execution and ML-based imputation for missing data
+  - Designed multi-tenant dbt warehouses with staging/mart architectures for battery manufacturing, financial, and marketing analytics
+
+  **Optimization, Forecasting & Analytics**
+
+  - Built CVXPY-based microgrid dispatch optimizer for battery storage sizing and DER cost minimization across multiple client engagements
+  - Developed port electrification optimization system with dual engines: heuristic dispatch for real-time use and Julia/JuMP MPC for optimal 48-hour rolling horizon scheduling
+  - Created techno-economic analysis framework calculating LCOE, NPV, and scenario sweeps for energy storage and industrial heat projects
+  - Built time-series forecasting pipelines (XGBoost, statistical models) to feed site analysis and MPC dispatch optimization
+  - Integrated NREL REopt.jl for renewable energy system sizing
+  - Developed logistic regression scoring pipeline with Google Ads conversion API integration
+  - Created quantitative factor model for multi-asset portfolio scoring with cross-sectional regression and risk decomposition
+  - Designed identity resolution graphs and marketing attribution models
+
+  **Product & Project Management**
+
+  - Authored PRDs and technical scoping documents for utility bill intelligence platform including rate plan optimization
+  - Led $3M CEC grant proposal for improving net load forecasting of behind-the-meter solar, battery, and EV resources
+  - Developed consulting methodologies, project templates, and AI-assisted development workflows for data teams
+  - Conducted data infrastructure audits and migration planning for client pipeline modernization
 
 - **[WeaveGrid](http://www.weavegrid.com)** San Francisco, CA: Oct 2021 - Dec 2024
   - **Data & Analytics Engineer**: Development of Weavegrid's internal data pipeline and analytics tooling, including the development of the data warehouse, ETL pipeline, and data visualization tools. Building out analytics and machine-learning forecasting for our go-to-market tools. Used to evaluate performance of our utility clients' electric vehicle charging programs for tens of thousands of connected EV and EVSE chargers, impacting hundreds of GWh of electricity daily.
