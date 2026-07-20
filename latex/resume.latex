@@ -41,7 +41,7 @@
     \begin{center}
         {\LARGE \textbf{Nick Clarke}}\\
         \vspace{2mm}
-        Climate-focused technologist with a background in software development, machine learning, and technical product management. Currently building IoT solutions in electric vehicle grid integration, real-time energy analysis and optimization.\\
+        Climate-focused technologist with a background in software and data engineering, machine learning, and technical product management. Currently leading the energy practice at a data-engineering consultancy, building production-grade data pipelines, analytics, and optimization tools for clean energy clients.\\
         \vspace{2mm}
         \href{https://github.com/nickolasclarke}{\faGithub} \hspace{10pt}
         \href{https://www.linkedin.com/in/nickolasclarke/}{\faLinkedin} \hspace{10pt}
@@ -54,7 +54,7 @@
     \section*{Skills \& Interests}
 
     \subsection*{Tools}
-    Python, Polars/Pandas/Numpy, CVXPY, SKLearn, Tensorflow, SQL, DBT, Docker, GraphQL, AWS, GCP, Snowflake
+    Python, Polars/Pandas/Numpy, CVXPY, SKLearn, SQL, DBT, Docker, GraphQL, AWS, GCP, Snowflake
 
     \subsection*{Interests}
     IoT, optimization & controls, power systems and energy analysis, energy markets, spatial analysis (GIS), transit, distributed energy resources (DER), renewables, EV integration, demand response, air quality, China, international development
