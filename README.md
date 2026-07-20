@@ -8,21 +8,21 @@ Principal Engineer and data systems architect with 12+ years spanning energy sys
 
 ### Technical
 
-- **Languages:** Python, SQL, Julia, JavaScript/React
-- **Data:** Polars, Pandas, NumPy, DuckDB, Apache Arrow
-- **ML/Optimization:** CVXPY, scikit-learn, XGBoost, TensorFlow, NREL REopt
-- **Warehousing:** Snowflake, BigQuery, Redshift, dbt
-- **Orchestration:** Dagster, dlt, Airbyte/PyAirbyte
-- **Cloud:** AWS (Lambda, SageMaker, Secrets Manager), GCP (Cloud Run, BigQuery, Cloud Storage)
-- **Visualization:** Altair, Plotly, Matplotlib, Marimo, Chart.js
-- **Infrastructure:** Docker, GitHub Actions, CI/CD
-- **APIs/Integration:** REST, GraphQL, Bloomberg, FRED, UtilityAPI, Interactive Brokers, Google Ads API
+- **Languages:** Python, SQL, JavaScript
+- **Data:** Polars, Pandas, NumPy, DuckDB, Marimo, Jupyter
+- **ML/Optimization:** CVXPY, SK-Learn,
+- **Database & Warehousing:** Snowflake, BigQuery, Redshift, Postgres, dbt
+- **Orchestration:** Dagster, dlt, Airbyte/PyAirbyte,
+- **Cloud:** AWS, GCP
+- **Visualization:** Altair, Matplotlib, Hex
+- **Infrastructure:** Docker, K8S, git, GitHub Actions, CI/CD
+- **APIs/Integration:** REST, GraphQL, FastAPI, Starlette, Pydantic
 
 ### Domain Expertise
 
-- **Energy & Environment:** Grid electrification, DER optimization, utility billing, EV charging, battery storage, port electrification, CARB/EPA compliance, CAISO markets
+- **Energy & Environment:** Grid electrification, DER optimization, utility billing, EV charging, grid battery storage, port electrification, CARB/EPA compliance, CAISO markets
 - **Data Types:** Time-series, IoT sensor data, geospatial, financial
-- **Product:** PRDs, roadmapping, stakeholder management, go-to-market
+- **Product:** PRDs, roadmapping, stakeholder management, go-to-market strategy, system architecting
 
 ## Employment History
 
@@ -32,7 +32,7 @@ Principal Engineer and data systems architect with 12+ years spanning energy sys
 
   **Data Engineering & Pipeline Development**
 
-  - Architected ETL/ELT pipelines using dlt, dbt, Dagster, and PyAirbyte across Snowflake, BigQuery, DuckDB, and Redshift
+  - Architected and implemented ETL/ELT pipelines using dlt, dbt, Dagster, and PyAirbyte across Snowflake, BigQuery, DuckDB, and Redshift
   - Built utility meter data ingestion system processing 15-minute interval readings and billing records via REST APIs with incremental loading
   - Developed financial data platform ingesting from Bloomberg, FRED, Interactive Brokers, and 10+ additional sources with parallel execution and ML-based imputation for missing data
   - Designed multi-tenant dbt warehouses with staging/mart architectures for battery manufacturing, financial, and marketing analytics
@@ -54,6 +54,7 @@ Principal Engineer and data systems architect with 12+ years spanning energy sys
   - Led $3M CEC grant proposal for improving net load forecasting of behind-the-meter solar, battery, and EV resources
   - Developed consulting methodologies, project templates, and AI-assisted development workflows for data teams
   - Conducted data infrastructure audits and migration planning for client pipeline modernization
+  - Conducted technical interviews on behalf of clients for hiring Software Engineers, Data Analysts
 
 - **[WeaveGrid](http://www.weavegrid.com)** San Francisco, CA: Oct 2021 - Dec 2024
   - **Data & Analytics Engineer**: Development of Weavegrid's internal data pipeline and analytics tooling, including the development of the data warehouse, ETL pipeline, and data visualization tools. Building out analytics and machine-learning forecasting for our go-to-market tools. Used to evaluate performance of our utility clients' electric vehicle charging programs for tens of thousands of connected EV and EVSE chargers, impacting hundreds of GWh of electricity daily.
