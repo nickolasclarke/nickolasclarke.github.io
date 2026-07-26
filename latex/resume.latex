@@ -40,132 +40,80 @@
     % Header
     \begin{center}
         {\LARGE \textbf{Nick Clarke}}\\
+        \vspace{1mm}
+        Oakland, CA \quad $\vert$ \quad nickolasclarke@gmail.com\\
         \vspace{2mm}
-        Climate-focused technologist with a background in software development, machine learning, and technical product management. Currently building IoT solutions in electric vehicle grid integration, real-time energy analysis and optimization.\\
+        I am a technical product leader and engineer with 16+ years designing, building, and shipping computational products for the electric grid and environmental monitoring. I have taken monitoring, optimization, and forecasting products from research to production such as DER optimal dispatch and sizing, techno-economic analysis, and load forecasting. I have led product for platforms used by top-tier US utilities, grid operators, and Fortune 500 clients, with a grounding in power systems, energy markets, and modeling from a UC Berkeley MS (Energy \& Resources) as a member of the Energy Modeling, Analysis and Control Group.\\
         \vspace{2mm}
         \href{https://github.com/nickolasclarke}{\faGithub} \hspace{10pt}
         \href{https://www.linkedin.com/in/nickolasclarke/}{\faLinkedin} \hspace{10pt}
         \href{https://erg.berkeley.edu/people/nick-clarke/}{UC Berkeley}
     \end{center}
 
-    %\vspace{5mm}
+    % Skills
+    \section*{Skills}
+    \begin{itemize}[leftmargin=*]
+        \item \textbf{Power Systems \& Optimization:} DER optimization and forecasting, model-predictive control, techno-economic analysis (NPV / IRR / LCOE / emissions), energy markets
+        \item \textbf{AI / ML / Data Analysis:} Polars, Pandas, Numpy, CVXPY, REopt.jl, time-series forecasting, SKLearn, pydantic-ai
+        \item \textbf{Software \& Data Engineering:} Python, SQL, dlt, dbt, Dagster, Snowflake, BigQuery
+    \end{itemize}
 
-    % Skills & Interests
-    \section*{Skills \& Interests}
-
-    \subsection*{Tools}
-    Python, Polars/Pandas/Numpy, CVXPY, SKLearn, Tensorflow, SQL, DBT, Docker, GraphQL, AWS, GCP, Snowflake
-
-    \subsection*{Interests}
-    IoT, optimization & controls, power systems and energy analysis, energy markets, spatial analysis (GIS), transit, distributed energy resources (DER), renewables, EV integration, demand response, air quality, China, international development
-
-    % Employment History
-    \section*{Employment History}
+    % Experience
+    \section*{Experience}
 
     \subsection*{\href{http://www.datacrt.com}{DataCRT}} \hfill Oakland, CA \\
     \textbf{Principal Engineer} \hfill Feb 2025 -- Present
+
+    Leads DataCRT's energy practice, helping clients design robust data ingestion and analysis products for their energy and environmental data. Also the PM and lead developer of the firm's internal techno-economic-analysis (TEA) optimization library.
     \begin{itemize}[leftmargin=*]
-        \item Lead DataCRT's Energy practice, helping clean energy sector clients develop production-grade data pipelines, data warehousing, and analytics tooling.
-        \item Lead development of proprietary techno-economic analysis optimization framework for energy systems. Built with CVXPY, this framework is used by our clients to inform go-to-market strategies, battery site selection, product development roadmaps, and sensitivity analysis, etc.
+        \item PM and lead developer of the in-house TEA library for DER, grid-battery, and microgrid systems, providing optimal sizing and dispatch plus full project economics (NPV, IRR, payback, LCOE, emissions).
+        \begin{itemize}
+            \item Designed a swappable sizing and dispatch optimizer interface with two interchangeable backends --- NREL's REopt.jl (Julia) or custom-defined CVXPY linear programs --- united behind a single contract for maximum reliability vs.\ modeling flexibility depending on client needs.
+            \item Built CVXPY-based microgrid and battery-storage dispatch optimization and port-terminal electrification use cases; added emissions and carbon-abatement-frontier analysis, batch scenario ranking, and tornado sensitivity analysis to support client investment decisions.
+        \end{itemize}
+        \item Leading energy analysis on a \$3M CEC grant proposal to improve net-load forecasting of behind-the-meter solar, battery, and EV resources for a major container port.
+        \item Authored PRDs and technical scoping for a utility bill-intelligence platform (rate-plan optimization); technical architect of data-ingestion and processing systems for utility data.
     \end{itemize}
 
-    \subsection*{\href{https://www.weavegrid.com}{WeaveGrid}} \hfill San Francisco, CA \\
-    \textbf{Data \& Analytics Engineer} \hfill Oct 2021 -- Dec 2024
+    \subsection*{\href{http://www.weavegrid.com}{WeaveGrid}} \hfill San Francisco, CA \\
+    \textbf{Software Engineer / Data \& Analytics Engineer} \hfill Oct 2021 -- Dec 2024
     \begin{itemize}[leftmargin=*]
-        \item Development of WeaveGrid's internal data pipeline and analytics tooling, including the development of the data warehouse, ETL pipeline, and data visualization tools.
-        \item Building out analytics and machine-learning forecasting for go-to-market tools to evaluate performance of utility clients' electric vehicle charging programs for tens of thousands of connected EV and EVSE chargers, impacting hundreds of GWh of electricity daily.
-    \end{itemize}
-    \\
-    \textbf{Software Engineer} \hfill
-    \begin{itemize}[leftmargin=*]
-        \item Founding member of a greenfield team to develop the \href{https://www.weavegrid.com/utilities}{WeaveGrid for Utilities} platform, a cloud-based software platform for utility clients to manage and optimize residential and commercial electric vehicle fleet charging programs.
-        \item Developed the data pipeline, REST/GraphQL API, and React front-end interfaces for the platform, as well as automated reporting for utility clients.
-        \\
+        \item One of the initial engineers on a new greenfield product line building \href{https://www.weavegrid.com/utilities}{WeaveGrid for Utilities}, a platform for utilities to manage and optimize residential and commercial EV charging; built the data pipeline, REST/GraphQL API, and React interfaces.
+        \item Built the internal data warehouse, ETL pipeline, and ML forecasting/analytics used to evaluate utility EV-charging programs across tens of thousands of connected EVs and EVSE chargers (hundreds of GWh daily), including behind-the-meter EV spatial-temporal optimization for utilities.
     \end{itemize}
 
     \subsection*{\href{http://pingthings.io/}{PingThings}} \hfill Remote \\
     \textbf{Product Manager} \hfill Oct 2020 -- Oct 2021
     \begin{itemize}[leftmargin=*]
-        \item Led Product Management and strategy for the \href{https://www.pingthings.io/platform.html}{PredictiveGrid timeseries platform}, a cloud-based timeseries database platform for managing and analyzing high-frequency (1-10+ GHz) sensor data for utilities and grid operators.
-        \item Developed the product roadmap, managed the development team, and collaborated with the executive team to develop and execute the company's go-to-market strategy.
-    \end{itemize}
-
-    \subsection*{\href{https://www.weavegrid.com}{Weave Grid}} \hfill San Francisco, CA \\
-    \textbf{Product \& Strategy Graduate Intern} \hfill Jun 2019 -- Aug 2019
-    \begin{itemize}[leftmargin=*]
-        \item Assisted CEO and CTO in refining and building an MVP product for electric vehicle fleet charging optimization. Wrote proposals for utility pilot projects, institutional grants, and accelerators.
+        \item Owned product for \href{https://www.pingthings.io/platform.html}{PredictiveGrid}, a cloud platform for high-frequency (1--100 GHz) grid sensor data used by several of the top-30 US utilities and grid operators. Set the product roadmap, managed the development team, and drove go-to-market strategy with the executive team.
     \end{itemize}
 
     \subsection*{\href{http://www.qlear.io/}{QLEAR.io}} \hfill Shanghai, China \\
     \textbf{Head of Product} \hfill Aug 2016 -- Jun 2018
     \begin{itemize}[leftmargin=*]
-        \item Managed the QLEAR SaaS IoT Platform for monitoring and optimizing indoor air quality and energy usage in commercial/retail buildings across dozens of countries and four continents with thousands of connected IoT devices.
-        \item Responsible for product roadmap \& strategy, overseeing software development teams, development, and representing QLEAR in media and industry events.
+        \item Head of Product for an IoT SaaS platform optimizing indoor air quality and energy use across commercial and retail buildings for Fortune 500 real-estate and retail firms, with thousands of connected devices across a portfolio of thousands of buildings. Set the product roadmap, managed the development team, and drove go-to-market strategy with the executive team.
     \end{itemize}
 
-    \subsection*{\href{http://www.hluce.org/lsprogram.aspx}{Henry Luce Foundation}} \hfill Kunming, China \\
-    \textbf{Henry Luce Scholar / Project Manager} \hfill Jun 2015 -- Aug 2016
+    % Earlier Roles
+    \section*{Earlier Roles}
     \begin{itemize}[leftmargin=*]
-        \item Managed an anaerobic digestion pilot using local food waste to produce bio-methane and organic fertilizer for local public transportation and agriculture. Developed the project in partnership with \href{https://lx.ynnu.edu.cn/English/About/About_YNNU.htm}{Yunnan Normal University}.
-    \end{itemize}
-
-    \subsection*{\href{https://lucidconnects.com/}{Lucid}} \hfill Oakland, CA \\
-    \textbf{Technical Operations Administrator} \hfill Jan 2014 -- May 2015
-    \begin{itemize}[leftmargin=*]
-        \item Provided tooling and infrastructure support for the software engineering team.
-        \item Assisted with quality assurance of three product codebases, working on a weekly agile sprint cycle.
-    \end{itemize}
-
-    \subsection*{\href{http://www.oberlin.edu/}{Oberlin College}} \hfill Oberlin, OH \\
-    \textbf{Sustainable Technology Research Fellow} \hfill Jun 2012 -- Jul 2013
-    \begin{itemize}[leftmargin=*]
-        \item Managed the Oberlin Dashboard Project, comprising hundreds of real-time sensors throughout the College and city SCADA systems for monitoring resource consumption.
-        \item Led a team of student employees and acted as a technical resource for community outreach projects.
-    \end{itemize}
-
-    \subsection*{\href{http://www.novell.com/}{Novell}} \hfill Provo, UT \\
-    \textbf{SUSE Linux Advantage Support Engineer} \hfill Jun 2010 -- Jul 2013
-    \begin{itemize}[leftmargin=*]
-        \item Tier II Support engineer for SUSE Linux Enterprise Server for priority enterprise customer accounts.
+        \item \href{https://www.weavegrid.com}{WeaveGrid} --- Product \& Strategy Graduate Intern (2019): built an MVP for EV fleet-charging optimization; wrote utility-pilot and grant proposals.
+        \item \href{http://www.hluce.org/lsprogram.aspx}{Henry Luce Foundation} --- Luce Scholar / Project Manager (2015--2016): managed an anaerobic-digestion pilot producing bio-methane, with Yunnan Normal University, Kunming, China.
+        \item \href{http://www.oberlin.edu/}{Oberlin College} --- Sustainable Technology Research Fellow (2012--2013): managed the Oberlin Dashboard Project (hundreds of real-time sensors and city SCADA systems).
+        \item Earlier: Lucid (technical operations, 2014--2015); Novell / SUSE (Tier-II Linux support engineer, 2010--2013).
     \end{itemize}
 
     % Education
     \section*{Education}
-
-    \subsection*{University of California, Berkeley} \hfill Berkeley, CA \\
-    \textbf{Master of Science from the Energy \& Resources Group} \hfill 2020 \\
-
-    \subsection*{Relevant Coursework}
     \begin{itemize}[leftmargin=*]
-        \item \href{https://ecal.berkeley.edu/ce295.html}{CE295 Energy Systems \& Control} - Scott Moura
-        \item \href{https://docs.google.com/document/d/1oC10pjyeBQTenQazCpaB8Lx1b5PC1SR3WFiPgCtXqcs/edit?usp=sharing}{PP275: Spatial Data \& Analysis} - Solomon Hsiang
-        \item \href{https://erg.berkeley.edu/academics/courses/}{ER254 Electric Power Systems} - Duncan Callaway
-        \item \href{http://faculty.haas.berkeley.edu/borenste/mba212/syl212.pdf}{MBA212 Energy and Environmental Markets} - Severin Borenstein
-        \item \href{https://github.com/duncancallaway/ER131_2019/blob/master/ER131%20Data%20and%20Environment%20syllabus.pdf}{ER131 Environment, Data \& Society} - Duncan Callaway
-        \\
+        \item \textbf{\href{https://erg.berkeley.edu/}{UC Berkeley} --- MS, Energy \& Resources Group (2020)} --- power-systems focus: \href{https://erg.berkeley.edu/academics/courses/}{ER254 Electric Power Systems}, \href{https://ecal.berkeley.edu/ce295.html}{CE295 Energy Systems \& Control}, \href{http://faculty.haas.berkeley.edu/borenste/mba212/syl212.pdf}{MBA212 Energy \& Environmental Markets}, ER131 Environment, Data \& Society. Graduate researcher at \href{https://ies.lbl.gov/}{LBNL International Energy Studies}: energy-systems modeling for \href{https://ecoblock.berkeley.edu/}{EcoBlock}; lead developer of the \href{https://github.com/nickolasclarke/dispatch}{Dispatch} transit-electrification optimization model.
+        \item \textbf{Westminster College --- BA, Environmental Studies \& Globalization (2012)}, minor in French.
     \end{itemize}
 
-    \subsection*{\href{https://international.lbl.gov/}{LBL International Energy Studies Group}} \hfill Jan 2018 -- May 2020
-    %\textit{LBL International Energy Studies Group} \hfill Jan 2018 -- May 2020
-
-
+    % Awards
+    \section*{Awards}
     \begin{itemize}[leftmargin=*]
-        \item \textbf{CIEE McQuown Fellow / Graduate Student Researcher}
-        \item Led Energy Systems modeling and analysis for \href{https://ecoblock.berkeley.edu/}{EcoBlock}.
-        \item Project lead for development of \href{https://github.com/nickolasclarke/dispatch}{Dispatch} transportation electrification model.
-        \item Co-author and Software Developer for \href{https://mappingforej.studentorg.berkeley.edu/}{Mapping for Environmental Justice}'s \href{https://mappingforej.studentorg.berkeley.edu/wp-content/uploads/2022/03/NM-CAFO-Report.pdf}{feed lot classification and mapping project}.
-    \end{itemize}
-
-    \subsection*{Westminster College} \hfill Westminster, PA \\
-    \textbf{Bachelor of Arts in Environmental Studies \& Globalization} \hfill 2012 \\
-    \textit{Minor in French}
-
-    % Awards \& Extracurriculars
-    \section*{Awards \& Extracurriculars}
-
-    \begin{itemize}[leftmargin=*]
-        \item 2015 \textbf{Henry Luce Scholar} - Henry Luce Foundation
-        \item 2003 \textbf{Eagle Scout} - Boy Scouts of America
+        \item Henry Luce Scholar (2015) $\cdot$ Eagle Scout (2003)
     \end{itemize}
 
     \end{document}
