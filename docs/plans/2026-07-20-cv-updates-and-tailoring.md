@@ -40,7 +40,7 @@ system is distinct earlier work and stays as-is). New / revised bullets:
 - Designed a swappable optimizer interface with two interchangeable backends —
   NREL REopt.jl (Julia) and an in-process CVXPY program builder — behind a
   single contract, providing a Julia-free solve path for a subset of problems.
-  *(subsumes the old standalone "Integrated NREL REopt.jl" bullet)*
+  _(subsumes the old standalone "Integrated NREL REopt.jl" bullet)_
 - Built emissions and carbon-abatement-frontier analysis, a batch scenario
   engine, and tornado sensitivity analysis, packaged into reusable use-case
   builders for port-terminal electrification and multi-site DER selection.
@@ -48,13 +48,16 @@ system is distinct earlier work and stays as-is). New / revised bullets:
 ### 3b. Add `bumwad` (Shine engagement)
 
 Adds an applied computer-vision / geospatial capability absent from the CV.
-One bullet under **Optimization, Forecasting & Analytics** (ML-adjacent):
+Include as a **single one-liner** under DataCRT (**Optimization, Forecasting &
+Analytics**, ML-adjacent). Like TEA, the model backend is swappable — currently
+a mix of SAM2/SAM3 prompt-based segmentation models — targeting multi-family
+solar + battery site planning:
 
-- Built a computer-vision site-segmentation tool (marimo) that extracts
-  building footprints, roof obstructions, parking-stall lines, and sidewalks
-  from satellite imagery using SAM2.1 behind a swappable model interface, and
-  regularizes the masks into CAD-ready vector geometry (DXF/SVG) for solar site
-  planning; validated with a real browser + real-model test harness (no mocks).
+- Built a backend-agnostic computer-vision site-segmentation tool (marimo,
+  SAM2/SAM3) that extracts building footprints, roof obstructions, parking-stall
+  lines, and sidewalks from satellite imagery and regularizes the masks into
+  CAD-ready vector geometry (DXF/SVG) for multi-family solar + battery site
+  planning.
 
 ### 3c. Skills additions (Technical section)
 
@@ -63,7 +66,7 @@ Only what the repos substantiate. Also clean two trailing-comma artifacts
 
 - **Languages:** add `Julia`.
 - **ML/Optimization:** → CVXPY, SK-Learn, XGBoost, PyTorch, Transformers/SAM2,
-  Julia/JuMP, NREL REopt.jl.
+  Julia/JuMP, REopt.jl.
 - **Geospatial (new line):** rasterio, osmnx, GeoJSON, DXF/CAD, MapLibre.
 
 ### 3d. Housekeeping
@@ -83,13 +86,14 @@ enriched content. Output: a **focused** README (~1–2 pp); LaTeX optional/later
 ### Framing
 
 Lead with the intersection of **product management** and **grid computation**:
-someone who has both shipped software products *and* built the optimization /
+someone who has both shipped software products _and_ built the optimization /
 forecasting engines underneath them, with a power-systems foundation.
 
 Draft summary:
+
 > Technical product leader and engineer with 12+ years building and shipping
 > computational products for the electric grid. Has taken optimization and
-> forecasting engines from research to production — DER dispatch and sizing,
+> forecasting products from research to production — DER dispatch and sizing,
 > techno-economic analysis, net-load forecasting — and led product for platforms
 > used by top-tier US utilities and grid operators. Power-systems grounding from
 > a UC Berkeley MS (Energy & Resources): CAISO markets, DER, utility operations.
@@ -97,13 +101,17 @@ Draft summary:
 ### What maps to the JD (all already substantiated)
 
 - **PM (5+ yrs, shipping software):** PingThings PM (grid timeseries platform,
-  top-30 US utilities), QLEAR Head of Product, WeaveGrid product/strategy,
-  DataCRT PRDs/scoping/roadmaps.
+  top-30 US utilities), QLEAR Head of Product, WeaveGrid product/strategy;
+  DataCRT TPM/PM for client projects and PM + lead developer of the internal
+  techno-economic-analysis library (linear/convex optimization).
 - **Computational engines research→production:** TEA/greenfield stack, CVXPY
   microgrid dispatch, REopt, port dispatch, dual-backend optimizer.
-- **Power systems + utility/ISO domain:** CAISO, DER, $3M CEC net-load
-  forecasting grant, UC Berkeley MS (ER254 Electric Power Systems, CE295 Energy
-  Systems & Control, MBA212 Energy Markets), the Dispatch grid model, EcoBlock.
+- **Power systems + DER / utility domain:** DER work across port electrification,
+  grid-scale battery-storage TEA, and WeaveGrid behind-the-meter EV
+  spatial-temporal optimization for utilities; CAISO markets; the $3M CEC
+  net-load forecasting grant; UC Berkeley MS (ER254 Electric Power Systems, CE295
+  Energy Systems & Control, MBA212 Energy Markets). (Dispatch is a *transit*
+  electrification model — optimization/modeling breadth, not a grid proof point.)
 
 ### Structure
 
@@ -113,12 +121,15 @@ Draft summary:
 3. Experience, reframed for PM + grid:
    - **DataCRT** — lead with computational-engine bullets (TEA library,
      dual-backend optimizer, dispatch, emissions/finance, forecasting, CEC
-     net-load grant) + product bullets (PRDs, scoping, roadmaps).
+     net-load grant) + product bullets (PRDs, scoping, roadmaps, technical architect of data ingestion and processing systems for utility data).
    - **PingThings** — product ownership of a grid-sensor timeseries platform for
      top-30 utilities (roadmap, dev team, GTM).
-   - **WeaveGrid** — founding engineer + analytics on a production utility-EV
-     platform at grid scale (hundreds of GWh/day).
-   - **QLEAR** — Head of Product (IoT optimization SaaS at scale).
+   - **WeaveGrid** — one of the first three engineers on a new greenfield product
+     line (utility-facing products); analytics on a production utility-EV platform
+     at grid scale (hundreds of GWh/day); behind-the-meter EV spatial-temporal
+     optimization for utilities.
+   - **QLEAR** — Head of Product (IoT optimization SaaS at scale for Fortune 500
+     real estate and retail firms).
    - **Education** — UC Berkeley MS with power-systems coursework surfaced.
 4. Earlier roles condensed to compact one-liners (or omitted) for focus.
 
@@ -132,7 +143,9 @@ evidence).
 
 - Patents / published research in power systems (only the co-authored
   Mapping-for-EJ report exists).
-- Founding a company — WeaveGrid was a **founding-engineer** role, stated as such.
+- Founding a company, or "founding engineer" — at WeaveGrid, Nick was **one of
+  the first three engineers on a new greenfield product line**, stated precisely
+  as that (not company-founder, not founding engineer).
 
 ## Sequence
 
