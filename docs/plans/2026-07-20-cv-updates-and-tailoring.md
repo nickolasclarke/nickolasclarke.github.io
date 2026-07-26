@@ -75,11 +75,11 @@ Fix the same prior-role typos on this branch that were fixed on master
 (teeam / WeavGrid / anerobic / foodwaste) — the prior-roles block is carried
 verbatim and drifted identically.
 
-## Task 2 — Tapestry-tailored resume (new branch cv/tapestry-grid-pm)
+## Task 2 — Tailored resume for the target role (new branch cv/utility-pm)
 
-**Role:** Product Manager, Grid Computations — Tapestry (Alphabet/X). PM-forward;
+**Role:** a utility / grid-computation product management role. PM-forward;
 owns the roadmap for computational engines / algorithms for grid decision-making
-(simulation, optimization, power systems). Branch `cv/tapestry-grid-pm`, cut
+(simulation, optimization, power systems). Branch `cv/utility-pm`, cut
 from `cv/consulting-comprehensive` after Task 3 lands, so it inherits the
 enriched content. Output: a **focused** README (~1–2 pp); LaTeX optional/later.
 
@@ -150,5 +150,5 @@ evidence).
 ## Sequence
 
 1. Task 3 on `cv/consulting-comprehensive`; commit (no push).
-2. Branch `cv/tapestry-grid-pm` from it; build the focused README; commit.
+2. Branch `cv/utility-pm` from it; build the focused README; commit.
 3. Ask before any push, and before touching LaTeX for the tailored branch.
