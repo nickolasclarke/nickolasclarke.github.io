@@ -1,4 +1,4 @@
-    \documentclass[11pt, a4paper]{article}
+\documentclass[11pt, a4paper]{article}
     \usepackage[utf8]{inputenc}
     \usepackage{geometry}
     \usepackage{hyperref}
@@ -43,7 +43,7 @@
         \vspace{1mm}
         Oakland, CA \quad $\vert$ \quad nickolasclarke@gmail.com\\
         \vspace{2mm}
-        I am a technical product leader and engineer with 16+ years designing, building, and shipping computational products for the electric grid and environmental monitoring. I have taken monitoring, optimization, and forecasting products from research to production such as DER optimal dispatch and sizing, techno-economic analysis, and load forecasting. I have led product for platforms used by top-tier US utilities, grid operators, and Fortune 500 clients, with a grounding in power systems, energy markets, and modeling from a UC Berkeley MS (Energy \& Resources) as a member of the Energy Modeling, Analysis and Control Group.\\
+        Technical product leader and software engineer with 16+ years of designing, building, and shipping computational products for the electric grid and environmental monitoring. I have taken monitoring, optimization, \& timeseries forecasting products from research to production such as DER optimal dispatch and sizing, techno-economic analysis, and load forecasting. I have led product development for platforms used by top-tier US utilities, grid operators, and Fortune 500 clients, with a grounding in power systems, energy markets, and modeling from a UC Berkeley MS (Energy \& Resources) as a member of the Energy Modeling, Analysis and Control Group.\\
         \vspace{2mm}
         \href{https://github.com/nickolasclarke}{\faGithub} \hspace{10pt}
         \href{https://www.linkedin.com/in/nickolasclarke/}{\faLinkedin} \hspace{10pt}
@@ -53,9 +53,9 @@
     % Skills
     \section*{Skills}
     \begin{itemize}[leftmargin=*]
-        \item \textbf{Power Systems \& Optimization:} DER optimization and forecasting, model-predictive control, techno-economic analysis (NPV / IRR / LCOE / emissions), energy markets
-        \item \textbf{AI / ML / Data Analysis:} Polars, Pandas, Numpy, CVXPY, REopt.jl, time-series forecasting, SKLearn, pydantic-ai
-        \item \textbf{Software \& Data Engineering:} Python, SQL, dlt, dbt, Dagster, Snowflake, BigQuery
+        \item \textbf{Power Systems \& Optimization:} DER optimization \& forecasting, techno-economic analysis, energy markets
+        \item \textbf{AI / ML / Data Analysis:} Polars, Pandas, Numpy, CVXPY, REopt.jl, SKLearn, pydantic-ai
+        \item \textbf{Software \& Data Engineering:} Python, SQL, DLT, DBT, Dagster, Snowflake, BigQuery
     \end{itemize}
 
     % Experience
@@ -68,10 +68,10 @@
     \begin{itemize}[leftmargin=*]
         \item PM and lead developer of the in-house TEA library for DER, grid-battery, and microgrid systems, providing optimal sizing and dispatch plus full project economics (NPV, IRR, payback, LCOE, emissions).
         \begin{itemize}
-            \item Designed a swappable sizing and dispatch optimizer interface with two interchangeable backends --- NREL's REopt.jl (Julia) or custom-defined CVXPY linear programs --- united behind a single contract for maximum reliability vs.\ modeling flexibility depending on client needs.
+            \item Designed a swappable sizing and dispatch optimizer interface with two interchangeable backends, NREL's REopt.jl (Julia) or custom-defined CVXPY linear programs, with a single data contract for maximum reliability vs.\ modeling flexibility depending on client needs.
             \item Built CVXPY-based microgrid and battery-storage dispatch optimization and port-terminal electrification use cases; added emissions and carbon-abatement-frontier analysis, batch scenario ranking, and tornado sensitivity analysis to support client investment decisions.
         \end{itemize}
-        \item Leading energy analysis on a \$3M CEC grant proposal to improve net-load forecasting of behind-the-meter solar, battery, and EV resources for a major container port.
+        \item Lead energy analysis on a \$3M CEC grant proposal to improve net-load forecasting of behind-the-meter solar, battery, and EV resources for a major container port.
         \item Authored PRDs and technical scoping for a utility bill-intelligence platform (rate-plan optimization); technical architect of data-ingestion and processing systems for utility data.
     \end{itemize}
 
@@ -97,8 +97,8 @@
     % Earlier Roles
     \section*{Earlier Roles}
     \begin{itemize}[leftmargin=*]
-        \item \href{https://www.weavegrid.com}{WeaveGrid} --- Product \& Strategy Graduate Intern (2019): built an MVP for EV fleet-charging optimization; wrote utility-pilot and grant proposals.
-        \item \href{http://www.hluce.org/lsprogram.aspx}{Henry Luce Foundation} --- Luce Scholar / Project Manager (2015--2016): managed an anaerobic-digestion pilot producing bio-methane, with Yunnan Normal University, Kunming, China.
+        \item \href{https://www.weavegrid.com}{WeaveGrid} --- Product \& Strategy graduate intern (2019): Assisted in building an MVP for EV fleet-charging optimization; wrote utility-pilot and grant proposals.
+        \item \href{http://www.hluce.org/lsprogram.aspx}{Henry Luce Foundation} --- Luce Scholar / Project Manager (2015--2016): managed an anaerobic-digestion bio-methane pilot project, with Yunnan Normal University, Kunming, China.
         \item \href{http://www.oberlin.edu/}{Oberlin College} --- Sustainable Technology Research Fellow (2012--2013): managed the Oberlin Dashboard Project (hundreds of real-time sensors and city SCADA systems).
         \item Earlier: Lucid (technical operations, 2014--2015); Novell / SUSE (Tier-II Linux support engineer, 2010--2013).
     \end{itemize}
@@ -106,7 +106,7 @@
     % Education
     \section*{Education}
     \begin{itemize}[leftmargin=*]
-        \item \textbf{\href{https://erg.berkeley.edu/}{UC Berkeley} --- MS, Energy \& Resources Group (2020)} --- power-systems focus: \href{https://erg.berkeley.edu/academics/courses/}{ER254 Electric Power Systems}, \href{https://ecal.berkeley.edu/ce295.html}{CE295 Energy Systems \& Control}, \href{http://faculty.haas.berkeley.edu/borenste/mba212/syl212.pdf}{MBA212 Energy \& Environmental Markets}, ER131 Environment, Data \& Society. Graduate researcher at \href{https://ies.lbl.gov/}{LBNL International Energy Studies}: energy-systems modeling for \href{https://ecoblock.berkeley.edu/}{EcoBlock}; lead developer of the \href{https://github.com/nickolasclarke/dispatch}{Dispatch} transit-electrification optimization model.
+        \item \textbf{\href{https://erg.berkeley.edu/}{UC Berkeley} --- MS, Energy \& Resources Group (2020)} --- power-systems focus: \href{https://erg.berkeley.edu/academics/courses/}{ER254 Electric Power Systems}, \href{https://ecal.berkeley.edu/ce295.html}{CE295 Energy Systems \& Control}, \href{http://faculty.haas.berkeley.edu/borenste/mba212/syl212.pdf}{MBA212 Energy \& Environmental Markets}, ER131 Environment, Data \& Society. Graduate researcher at \href{https://ies.lbl.gov/}{LBNL International Energy Studies}: energy systems modeling for \href{https://ecoblock.berkeley.edu/}{EcoBlock}; lead developer of the \href{https://github.com/nickolasclarke/dispatch}{Dispatch} transit-electrification optimization model.
         \item \textbf{Westminster College --- BA, Environmental Studies \& Globalization (2012)}, minor in French.
     \end{itemize}
 
