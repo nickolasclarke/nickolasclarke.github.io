@@ -2,7 +2,7 @@
 
 Oakland, CA | nickolasclarke@gmail.com | [github.com/nickolasclarke](https://github.com/nickolasclarke) | [linkedin.com/in/nickolasclarke](https://www.linkedin.com/in/nickolasclarke/)
 
-Technical product leader and software engineer with 16+ years of designing, building, and shipping computational products for the electric grid and environmental monitoring. I have taken monitoring, optimization, & timeseries forecasting products from research to production such as DER optimal dispatch and sizing, techno-economic analysis, and load forecasting. I have led product development for platforms used by top-tier US utilities, grid operators, and Fortune 500 clients, with a grounding in power systems, energy markets, and modeling from a UC Berkeley MS (Energy & Resources) as a member of the Energy Modeling, Analysis and Control Group.
+Technical product leader and software engineer with 16+ years of designing, building, and shipping computational products for the electric grid and environmental monitoring. I have taken monitoring, optimization, and time-series forecasting from research to production — DER optimal dispatch and sizing, techno-economic analysis, load forecasting — and led product development for platforms used by top-tier US utilities, grid operators, and Fortune 500 clients. My grounding in power systems, energy markets, and modeling comes from a UC Berkeley MS (Energy & Resources) and membership in the Energy Modeling, Analysis and Control Group.
 
 ## Skills
 
@@ -18,16 +18,16 @@ Oakland, CA · Feb 2025 – Present
 Leads DataCRT's energy practice, helping clients design robust data ingestion and analysis products for their energy and environmental data. Also the PM and lead developer of the firm's internal techno-economic-analysis (TEA) optimization library.
 
 - PM and lead developer of the in-house TEA library for DER, grid-battery, and microgrid systems, providing optimal sizing and dispatch plus full project economics (NPV, IRR, payback, LCOE, emissions).
-  - Designed a swappable sizing and dispatch optimizer interface with two interchangeable backends, NREL's REopt.jl (Julia) or custom-defined CVXPY linear programs, with a single data contract for maximum reliability vs. modeling flexibility depending on client needs.
-  - Built CVXPY-based microgrid and battery-storage dispatch optimization and port-terminal electrification use cases; added emissions and carbon-abatement-frontier analysis, batch scenario ranking, and tornado sensitivity analysis to support client investment decisions.
+  - Designed a sizing and dispatch optimizer interface with two interchangeable backends — NREL's REopt.jl (Julia) or custom-defined CVXPY linear programs — behind a single data contract, balancing reliability against modeling flexibility per client needs.
+  - Built CVXPY microgrid and battery-storage dispatch optimization and port-terminal electrification use cases; added emissions and carbon-abatement-frontier analysis, batch scenario ranking, and tornado sensitivity to support client investment decisions.
 - Lead energy analysis on a $3M CEC grant proposal to improve net-load forecasting of behind-the-meter solar, battery, and EV resources for a major container port.
-- Authored PRDs and technical scoping for a utility bill-intelligence platform (rate-plan optimization); technical architect of data-ingestion and processing systems for utility data.
+- Authored PRDs and technical scoping for a utility bill-intelligence platform (rate-plan optimization); technical architect of utility data-ingestion and processing systems.
 
 ### [WeaveGrid](http://www.weavegrid.com) — Software Engineer / Data & Analytics Engineer
 San Francisco, CA · Oct 2021 – Dec 2024
 
 - One of the initial engineers on a new greenfield product line building [WeaveGrid for Utilities](https://www.weavegrid.com/utilities), a platform for utilities to manage and optimize residential and commercial EV charging; built the data pipeline, REST/GraphQL API, and React interfaces.
-- Built the internal data warehouse, ETL pipeline, and ML forecasting/analytics used to evaluate utility EV-charging programs across tens of thousands of connected EVs and EVSE chargers (hundreds of GWh daily), including behind-the-meter EV spatial-temporal optimization for utilities.
+- Built the internal data warehouse, ETL pipeline, and ML forecasting/analytics to evaluate utility EV-charging programs across tens of thousands of connected EVs and EVSE chargers (hundreds of GWh daily), including behind-the-meter EV spatial-temporal optimization for utilities.
 
 ### [PingThings](http://pingthings.io/) — Product Manager
 Remote · Oct 2020 – Oct 2021
@@ -37,7 +37,7 @@ Remote · Oct 2020 – Oct 2021
 ### [QLEAR.io](http://www.qlear.io/) — Head of Product
 Shanghai, China · Aug 2016 – June 2018
 
-- Head of Product for an IoT SaaS platform optimizing indoor air quality and energy use across commercial and retail buildings for Fortune 500 real-estate and retail firms, with thousands of connected devices across a portfolio of thousands of buildings. Set the product roadmap, managed the development team, and drove go-to-market strategy with the executive team.
+- Head of Product for an IoT SaaS platform optimizing indoor air quality and energy use for Fortune 500 real-estate and retail firms, with thousands of connected devices across a portfolio of thousands of buildings. Set the product roadmap, managed the development team, and drove go-to-market strategy with the executive team.
 
 ### Earlier Roles
 
